@@ -243,7 +243,8 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 *Mechanism:* Map email to user_id, store queries and responses for personalized, continuous context.
 
 
-![image](https://github.com/user-attachments/assets/06718aeb-a813-4a7b-ac05-f5846d3cb26f)
+![image](https://github.com/user-attachments/assets/eb0bc868-05fb-4ecb-a13d-b1b156b0504c)
+
 
 
 
