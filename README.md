@@ -1,5 +1,12 @@
 # CoDiagnose - AI Doctor Mitra for Everyone 🩺💡
 
+![image](https://github.com/user-attachments/assets/35879523-dc3e-4531-8a66-527a02e343ee)
+
+
+![image](https://github.com/user-attachments/assets/011a5a0f-8087-4719-84d6-dd61cb45fa89)
+
+
+
 ## 📜 Abstract
 
 CoDiagnose is a medical diagnostic assistant based on AI to enhance the efficiency, accuracy, and accessibility of initial healthcare assessment. With the increasing load on health systems and the phenomenon of self-diagnosis via unverified sources, there is an evident requirement for an alternative that is more organized, intelligent, and patient-centric. CoDiagnose fulfills this gap by providing a clinically valid alternative that draws upon the power of artificial intelligence to deliver credible health information based on patient-elicited symptoms.
@@ -115,6 +122,9 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 *Seamless Escalation Prompt:* If severity exceeds safe self-care thresholds, users receive a clear call-to-action to proceed to Tab 2 for comprehensive, physician-grade diagnostics—ensuring no critical condition is overlooked.
 
 
+![image](https://github.com/user-attachments/assets/95c3a69a-f9da-428c-aafc-249afbab5626)
+
+
 
 #### Tab 2: Doctor-Grade Reports
 
@@ -148,6 +158,14 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 *RAG-Powered Chatbot (Future):* A conversational interface for ongoing support.
 
+![image](https://github.com/user-attachments/assets/118d63a8-7b95-4689-ab88-8e2a7a918676)
+
+
+![image](https://github.com/user-attachments/assets/1e9451ad-d7a2-4908-8818-2b35cbf3e2f3)
+
+
+![image](https://github.com/user-attachments/assets/3bdf5375-3b5c-42d4-a365-b92049a577f8)
+
 
 
 ### 2.3 Triage Calculator Module
@@ -157,6 +175,11 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 
 *Computation:* Iterates normalized user-selected symptoms, sums weights for an urgency score guiding triage decisions.
+
+![image](https://github.com/user-attachments/assets/07b565bd-4b85-445d-b8a6-172ecb9e20f2)
+
+
+![image](https://github.com/user-attachments/assets/9c411afb-cb21-4b7e-a73f-d7337a983bb4)
 
 
 
@@ -170,6 +193,12 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 
 **Rendering:** Converts links into clickable HTML anchor tags for inline display.
+
+
+![image](https://github.com/user-attachments/assets/bbbcf669-8472-464f-9532-0a398d3ed8d6)
+
+
+![image](https://github.com/user-attachments/assets/9d6e614a-8857-4754-b963-61ecde6c0c81)
 
 
 
@@ -200,6 +229,9 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 *Response Generation:* Fuse top-ranked docs to produce contextualized answers.
 
+![image](https://github.com/user-attachments/assets/da3c2361-f5f7-4280-9d87-21de664f61f3)
+
+
 
 
 ### 2.7 Context Saving
@@ -209,6 +241,9 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 
 *Mechanism:* Map email to user_id, store queries and responses for personalized, continuous context.
+
+
+![image](https://github.com/user-attachments/assets/06718aeb-a813-4a7b-ac05-f5846d3cb26f)
 
 
 
@@ -230,12 +265,16 @@ In addition, CoDiagnose enables safe doctor-patient communication, provides mult
 
 The generate_medical_report() function compiles patient details and AI insights into a PDF buffer. A Streamlit st.download_button allows one-click download, dynamically named by patient.
 
+![image](https://github.com/user-attachments/assets/c41fcdc2-3562-4da3-b2e0-0bfb8fa49b53)
 
 
 #### 3.2 Email Dispatch
 
 
 send_email_sendgrid() retrieves selected doctor from doctors.db and sends the PDF attachment using SendGrid’s API, streamlining report delivery.
+
+
+![image](https://github.com/user-attachments/assets/9a0914e5-4d05-4ea3-b56b-265a15fe3478)
 
 
 
